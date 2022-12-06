@@ -75,7 +75,7 @@ int main(int argc, char *argv[]){
     lin=n;
     col=n;
 
-    if(n<0 && n>50){
+    if(n<0 && n>50) {
         printf("\nNumero incorreto de parametros. Execute seu programa com um valor inteiro e positivo.\n");
     }
     int **matriz=alocaMatriz(lin, col);
