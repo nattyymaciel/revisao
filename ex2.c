@@ -3,8 +3,8 @@
 #include <math.h>
 
 int somaDigitos(int num){
-    if (num==0){
-        return 0;
+    if (num<10){
+        return num;
     }
     else{
         int div, soma=0;
@@ -23,7 +23,7 @@ int main(){
         printf("\nDigite uma valor para a a soma:\n");
         scanf("%d", &num);
         soma=somaDigitos(num);    
-            
+        //fazer o print da soma aqui  
     } while(num!=0);
 
     return 0;
